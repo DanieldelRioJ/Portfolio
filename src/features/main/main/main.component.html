@@ -1,0 +1,68 @@
+<section class="section1">
+    <ng-particles #particle [id]="id" [options]="particlesOptions" [particlesInit]="particlesInit"
+                  (particlesLoaded)="particlesLoaded($event)"></ng-particles>
+
+    <div class="my-content">
+        <div class="header">
+            <img src="assets/logo.png" alt="Logo" class="logo"/>
+            <div><a href="mailto:daniel.delrio.juncal@gmail.com" class="my-button font-size-12">Say Hello</a></div>
+        </div>
+        <div class="title-container">
+            <h2 class="title font-size-28">FullStack Web Developer & Computer Vision Engineer</h2>
+            <h3 class="subtitle font-size-16">I develop Computer Vision programs and websites!</h3>
+        </div>
+
+        <div class="my-photo-container"><app-my-photo></app-my-photo></div>
+    </div>
+</section>
+
+
+
+<div class="section2">
+    <h2 class="title font-size-24">Hi, I´m Daniel. Nice to meet you.</h2>
+    <p class="subtitle font-size-14">Since I started in computer field over 8 years ago I have worked for multiple agencies and factories developing
+        software and making it more competitive using Computer Vision. I´m continious learning and improving my skills.</p>
+</div>
+
+<div class="section3">
+    <div class="skills-content">
+        <div class="columns">
+            <app-skill *ngFor = 'let skill of skills' [skill]="skill"></app-skill>
+        </div>
+    </div>
+
+</div>
+
+<div id="computer-vision" class="section4 mt-4">
+    <h2 class="title font-size-24">Computer vision work.</h2>
+    <p class="subtitle font-size-14">Here I show you my last works in the Computer Vision fields. Want to see more?. <a href="mailto:daniel.delrio.juncal@gmail.com">Email me!</a></p>
+    <div class="works">
+        <div class="work p-2" *ngFor="let work of computerVisionWorks">
+            <app-work-card [work]="work"></app-work-card>
+        </div>
+    </div>
+</div>
+
+<div id="web-developer"  class="section5 mt-4">
+    <h2 class="title font-size-24">FullStack develop work.</h2>
+    <p class="subtitle font-size-14">Here I show you my last works in the Computer Vision fields. Want to see more?. <a href="mailto:daniel.delrio.juncal@gmail.com">Email me!</a></p>
+    <div class="works">
+        <div class="work p-2" *ngFor="let work of webWorks">
+            <app-work-card [work]="work"></app-work-card>
+        </div>
+    </div>
+</div>
+
+<div id="mentor" class="section6"></div>
+
+
+<div id="companies"  class="section7 mt-4">
+    <h2 class="title font-size-24 mb-4">I´m proud to have worked with some amazing companies.</h2>
+    <div class="company-logo-container">
+        <a href="https://www.televes.com/" target="_blank" class="mx-4 mb-3"><img class="company-logo" src="assets/companies/televes.png" alt="Televes"></a>
+        <a href="https://citius.gal/" target="_blank" class="mx-4 mb-3"><img class="company-logo" src="assets/companies/citius.png" alt="Citius"></a>
+        <a href="https://www.tecalis.com" target="_blank" class="mx-4 mb-3"><img class="company-logo" src="assets/companies/tecalis.png" alt="Tecalis"></a>
+        <a href="https://sixtema.es" target="_blank" class="mx-4 mb-3"><img class="company-logo" src="assets/companies/sixtema.jpg" alt="Sixtema"></a>
+    </div>
+
+</div>

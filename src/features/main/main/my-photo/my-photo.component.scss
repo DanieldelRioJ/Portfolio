@@ -1,0 +1,70 @@
+@use '../../../../mixing/breakpoints' as br;
+
+:host {
+  display: block;
+}
+
+img{
+  object-fit: cover;
+}
+
+.card {
+  margin: auto;
+  perspective: 150rem;
+  position: relative;
+  height: 250px;
+  max-width: 250px;
+  box-shadow: none;
+  background: none;
+  transition: all cubic-bezier(0.43, -0.04, 0.66, 1.76) 0.7s;
+
+  @include br.respond-to(lt-medium){
+
+    height: 200px;
+    max-width: 200px;
+  }
+}
+
+.card-side {
+  border-radius: 100%;
+  box-shadow: black 0px 0px 10px 0px;
+  height: 100%;
+  transition: all cubic-bezier(0.43, -0.04, 0.66, 1.76) 0.7s;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: white
+}
+
+.card-side.back {
+  transform: rotateY(-180deg);
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #5094c8 46%, #00ff7c 100%);
+}
+
+.card-side.front {
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.card:hover .card-side.front {
+  transform: rotateY(180deg);
+}
+
+.card:hover .card-side.back {
+  transform: rotateY(0deg);
+}
+
+.details{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  margin: auto;
+}
+
+p>span{
+  font-weight: bold;
+}

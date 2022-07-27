@@ -1,0 +1,30 @@
+$sizes: (0.4, 0.8, 0.9, 1, 1.1, 1.2, 1.4, 1.6, 1.8, 2, 2.4, 2.8, 3.2, 4);
+$directions: (top-right, top-left, bottom-left, bottom-right);
+
+@mixin height-width-percentages() {
+    @each $size in $sizes {
+        .font-size-#{$size*10} {
+            font-size: #{$size}rem !important;
+        }
+
+        .border-radius-#{$size*10} {
+            border-radius: #{$size * 10}px !important;
+        }
+
+        @each $direction in $directions {
+            .border-#{$direction}-radius-#{$size*10} {
+                border-#{$direction}-radius: #{$size * 10}px !important;
+            }
+        }
+    }
+
+    .font-size-none {
+        font-size: unset !important;
+    }
+
+    .border-radius-none {
+        border-radius: unset !important;
+    }
+}
+
+@include height-width-percentages;

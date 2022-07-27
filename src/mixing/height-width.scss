@@ -1,0 +1,18 @@
+$one: 1%;
+$intervals: (5, 10, 15, 20, 25, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100);
+
+@mixin height-width-percentages() {
+    @each $prop, $abbrev in (width: w, height: h) {
+        @each $size in $intervals {
+            .#{$abbrev}-#{$size} {
+                #{$prop}: $size * $one !important;
+            }
+        }
+
+        .#{$abbrev}-none {
+            #{$prop}: unset;
+        }
+    }
+}
+
+@include height-width-percentages;

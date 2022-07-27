@@ -1,0 +1,72 @@
+:host {
+  display: block;
+  height: 100%;
+}
+
+.container{
+  border-radius: 10px;
+  height: 100%;
+  transition: transform cubic-bezier(0.43, -0.04, 0.66, 1.76) 0.3s;
+  cursor: pointer;
+  position: relative;
+  color: white;
+  overflow: hidden;
+
+  .work-photo{
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.5s;
+  }
+
+  .title{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    transition: all 1s;
+    text-shadow: 2px 2px 2px black;
+    overflow: hidden;
+    h3{
+      transition: all 0.5s;
+    }
+  }
+
+  .description{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #00344c;
+    transition: all 0.5s;
+  }
+
+  &:hover{
+    transform: translateY(-12px);
+    .work-photo{
+      transform: perspective(500px) translateZ(100px);
+    }
+    .title{
+      opacity: 0;
+      h3{
+        transform: perspective(500px) translateZ(100px);
+      }
+    }
+    .description{
+      opacity: 1;
+    }
+  }
+}

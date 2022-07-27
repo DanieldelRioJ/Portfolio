@@ -1,0 +1,215 @@
+@use '../../../mixing/breakpoints' as br;
+
+:host {
+  display: block;
+  margin-bottom: 64px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.section1{
+  position: relative;
+
+  transition: padding 1s;
+
+  padding: 50px 250px 0px;
+  margin-bottom: -35px;
+  @include br.respond-to(lt-medium){
+    padding: 20px 30px;
+  }
+
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .logo{
+      width: 75px;
+    }
+  }
+  .title-container{
+    padding-top: 100px;
+  }
+  .title{
+
+    @include br.respond-to(lt-medium){
+      font-size: 2.5rem !important;
+    }
+    font-weight: bold;
+  }
+
+  .title, .subtitle{
+    text-align: center;
+    @include br.respond-to(lt-medium){
+      font-size: 2rem !important;
+    }
+  }
+
+  .subtitle{
+    margin-top: 10px;
+  }
+
+  .my-photo-container{
+    margin-top: 50px;
+    text-align: center;
+
+  }
+
+  .machine-learning-logo-container{
+    margin-top: 50px;
+    img{
+      display: block;
+      margin: auto;
+      width: 500px;
+      transition: width 1s;
+    }
+  }
+}
+
+
+
+.section2{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #0077b6;
+  color: white;
+  padding: 100px 450px 200px 450px;
+  line-height: 2rem;
+  transition: padding ease-in-out 1s;
+
+
+  @include br.respond-to(lt-large){
+    padding: 100px 200px 200px 200px;
+  }
+
+  @include br.respond-to(lt-medium){
+    padding: 100px 50px 200px 50px;
+  }
+
+}
+
+.section3{
+  padding: 20px;
+  .skills-content{
+    margin: auto;
+    max-width: 1350px;
+
+    .columns{
+
+      @include br.respond-to(lt-medium){
+        flex-direction: column;
+      }
+
+      display: flex;
+      justify-content: center;
+      background-color: white;
+      margin: -150px auto auto;
+      text-align: center;
+      border-radius: 15px;
+      box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+
+      &>*:not(:first-child):not(:last-child){
+        border-left: 1px solid #E6ECF8 ;
+        border-right: 1px solid #E6ECF8 ;
+
+        @include br.respond-to(lt-medium){
+          border: 1px solid #E6ECF8 ;
+          border-left: none;
+          border-right: none ;
+        }
+      }
+      &>*{
+        padding: 50px;
+        flex: 1 1 0px
+      }
+    }
+  }
+
+}
+
+.section4{
+  text-align: center;
+
+  .works{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 200px;
+    padding-right: 200px;
+    transition: padding 1s;
+
+    @include br.respond-to(lt-large){
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+
+    @include br.respond-to(lt-medium){
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    .work{
+      width: 33%;
+      @include br.respond-to(lt-medium){
+        width: 50%;
+      }
+
+      @include br.respond-to(lt-small){
+        width: 100%;
+      }
+    }
+  }
+}
+
+.section5{
+  text-align: center;
+
+  .works{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 200px;
+    padding-right: 200px;
+    transition: padding 1s;
+
+    @include br.respond-to(lt-large){
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+
+    @include br.respond-to(lt-medium){
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    .work{
+      width: 33%;
+      @include br.respond-to(lt-medium){
+        width: 50%;
+      }
+
+      @include br.respond-to(lt-small){
+        width: 100%;
+      }
+    }
+  }
+}
+
+.section7{
+  text-align: center;
+
+  .company-logo-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .company-logo{
+    transition: all 1s;
+    height: 50px;
+    @include br.respond-to(lt-medium){
+      height: 30px;
+    }
+  }
+}
