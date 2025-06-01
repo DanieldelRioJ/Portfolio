@@ -48,7 +48,7 @@ export class MainComponent implements OnInit, AfterViewInit {
     new WorkCard('section5.mar2.title', 'section5.mar2.description', 'https://www.linkedin.com/feed/update/urn:li:activity:6864849626965532672/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6864849626965532672%29', 'common.check-it', 'assets/fullstack-dev/gifs/mar-2.jpg'),
     new WorkCard('section5.cui.title', 'section5.cui.description', '', 'common.check-it', 'assets/fullstack-dev/gifs/centro-mision.jpg'),
     new WorkCard('section5.huter.title', 'section5.huter.description', 'https://huter-hca.eu/', 'common.check-it', 'assets/fullstack-dev/gifs/huter.jpg'),
-    new WorkCard('section5.apuntesusc.title', 'section5.apuntesusc.description', 'https://apuntesusc.es', 'common.visit-website', 'assets/fullstack-dev/gifs/apuntesusc-compressed.mp4'),
+    new WorkCard('section5.apuntesusc.title', 'section5.apuntesusc.description', '', 'common.visit-website', 'assets/fullstack-dev/gifs/apuntesusc-compressed.mp4'),
     new WorkCard('section5.vaccine-covid.title', 'section5.vaccine-covid.description', '', 'common.check-it', 'assets/fullstack-dev/gifs/vaccine-covid.jpeg'),
     ];
 

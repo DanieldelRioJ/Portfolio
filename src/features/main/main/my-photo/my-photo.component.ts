@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MyPhotoComponent implements OnInit {
 
-  constructor() { }
+  edad= new Date().getFullYear() - 1998;
+
+  constructor() {
+
+  }
 
   ngOnInit(): void {
   }
