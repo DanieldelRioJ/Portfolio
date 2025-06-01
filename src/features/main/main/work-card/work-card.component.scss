@@ -18,6 +18,7 @@
     width: 100%;
     object-fit: cover;
     transition: all 0.5s;
+    pointer-events: none;
   }
 
   .title{
@@ -68,5 +69,9 @@
     .description{
       opacity: 1;
     }
+  }
+
+  .my-button{
+    color:white;
   }
 }

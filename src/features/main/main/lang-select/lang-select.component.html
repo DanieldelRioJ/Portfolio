@@ -1,0 +1,3 @@
+<mat-select [formControl]="langControl">
+    <mat-option *ngFor="let lang of this.translateService.availableLangs" [value] = lang>{{'common.langs.'+lang | translate}}</mat-option>
+</mat-select>

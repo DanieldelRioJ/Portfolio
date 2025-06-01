@@ -9,6 +9,10 @@ import { MyPhotoComponent } from './main/my-photo/my-photo.component';
 import { WorkCardComponent } from './main/work-card/work-card.component';
 import { NgParticlesModule } from 'ng-particles';
 import { UtilPipesModule } from '../../shared/util-pipes/util-pipes.module';
+import {MatSelectModule} from '@angular/material/select';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { LangSelectComponent } from './main/lang-select/lang-select.component';
+import { SharedModule } from '../../shared/shared.module';
 
 
 @NgModule({
@@ -17,13 +21,18 @@ import { UtilPipesModule } from '../../shared/util-pipes/util-pipes.module';
     MouseRotateDirective,
     SkillComponent,
     MyPhotoComponent,
-    WorkCardComponent
+    WorkCardComponent,
+    LangSelectComponent
   ],
   imports: [
     CommonModule,
     MainRoutingModule,
     NgParticlesModule,
     UtilPipesModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatSelectModule,
+    SharedModule
   ],
 })
 export class MainModule { }

@@ -17,4 +17,33 @@
     background-color: #0077b6;
     color: white;
   }
+
+  &.highlight{
+    animation: highlight 3s infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  img{
+    height: 30px;
+    vertical-align: middle;
+  }
+
+  &.alter{
+    border: 2px solid #ccc;
+    background-color: transparent;
+  }
+
+  &.alter:hover{
+    background-color: white;
+    border: 2px solid white;
+  }
+}
+
+@keyframes highlight {
+  75%{
+    box-shadow: #0077b6 0px 0px 15px 0px;
+  }
+  to{
+    box-shadow: unset;
+  }
 }

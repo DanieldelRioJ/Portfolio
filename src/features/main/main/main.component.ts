@@ -14,42 +14,43 @@ import { loadFull } from "tsparticles";
 export class MainComponent implements OnInit, AfterViewInit {
 
   skills: Skill[] = [
-    new Skill('assets/eye-logo.png', 'Computer Vision',
-        'I am passionate of developing programs that can extract information from images and allow the computer to "see"',
-        [new Detail('Problems I enjoy solving:', ['Classification, Semantic segmentation, Object Detection, Anomaly Detection and Segmentation, ...']),
-               new Detail('Technologies I use:', ['Python', 'OpenCV', 'Tensorflow & Keras', 'Docker'])],
+    new Skill('assets/eye-logo.png', 'section3.computer-vision.title',
+        'section3.computer-vision.description',
+        [new Detail('section3.computer-vision.problems.title', ['Classification, Semantic segmentation, Object Detection, Anomaly Detection and Segmentation, ...']),
+               new Detail('section3.computer-vision.technologies.title', ['Python', 'OpenCV', 'Tensorflow & Keras', 'Docker'])],
         '#computer-vision'),
 
-    new Skill('assets/internet-icon.png', 'FullStack Developer',
-        'I like making beautiful web applications that helps people solving their problems',
-        [new Detail('Languages I use', ['HTML, CSS, Javascript, Typescript, Python, Java']),
-          new Detail('Frameworks I use:', ['Angular', 'SpringBoot', 'Flask', 'Django'])],
+    new Skill('assets/internet-icon.png', 'section3.full-stack.title',
+        'section3.full-stack.description',
+        [new Detail('section3.full-stack.languages.title', ['HTML, CSS, Javascript, Typescript, Python, Java']),
+          new Detail('section3.full-stack.frameworks.title', ['Angular', 'SpringBoot', 'Flask', 'Django'])],
         '#web-developer'),
 
-    new Skill('assets/teach-icon.png', 'Mentor',
-        'I am concerned about people and love helping others achieve their goals',
-        [new Detail('Fields of knowledge I teach:', ['Bots, Web Extensions, Computer Vision']),
-          new Detail('Mentor stats:', ['1 year experience', '3 courses', '+200 students', '+20h recorded classes'])],
+    new Skill('assets/teach-icon.png', 'section3.mentor.title',
+        'section3.mentor.description',
+        [new Detail('section3.mentor.fields.title', ['section3.mentor.fields.value']),
+          new Detail('section3.mentor.stats.title', ['section3.mentor.stats.value.exp',
+            'section3.mentor.stats.value.courses', 'section3.mentor.stats.value.students', 'section3.mentor.stats.value.length'])],
         "https://www.udemy.com/user/daniel-del-rio-6/"),
   ];
 
   computerVisionWorks: WorkCard[] = [
-    new WorkCard('Semantic Segmentation', 'Get the class of each pixel of an image', '', 'Check it!', 'assets/computer-vision/gifs/semantic-segmentation.gif'),
-    new WorkCard('Object Detection', 'Detect multiple objects on an image', '', 'Check it!', 'assets/computer-vision/gifs/object-detection-compressed.mp4'),
-    new WorkCard('Landmark detection', 'Bla bla bla', '', 'Check it!', 'assets/computer-vision/gifs/landmark-detection-compressed.mp4'),
-    new WorkCard('Anomaly Detection & Segmentation', 'Bla bla bla', '', 'Check it!', 'assets/computer-vision/gifs/anomaly-segmentation.png'),
-    new WorkCard('Tracking', 'Detect and track objects during a video', '', 'Check it!', 'assets/computer-vision/gifs/tracking-compressed.mp4'),
-    new WorkCard('Semantic Segmentation', 'Bla bla bla', '', 'Check it!', 'assets/computer-vision/gifs/landmark-detection-compressed.mp4')
+    new WorkCard('section4.semantic-segmentation.title', 'section4.semantic-segmentation.description', '', 'common.check-it', 'assets/computer-vision/gifs/semantic-segmentation-compressed.mp4'),
+    new WorkCard('section4.object-detection.title', 'section4.object-detection.description', '', 'common.check-it', 'assets/computer-vision/gifs/object-detection-compressed.mp4'),
+    new WorkCard('section4.landmark-detection.title', 'section4.landmark-detection.description', '', 'common.check-it', 'assets/computer-vision/gifs/landmark-detection-compressed.mp4'),
+    new WorkCard('section4.anomaly-detection.title', 'section4.anomaly-detection.description', '', 'common.check-it', 'assets/computer-vision/gifs/anomaly-segmentation.png'),
+    new WorkCard('section4.tracking.title', 'section4.tracking.description', '', 'common.check-it', 'assets/computer-vision/gifs/tracking-compressed.mp4'),
+    new WorkCard('section4.multitask.title', 'section4.multitask.description', '', 'common.check-it', 'assets/computer-vision/gifs/multitask-compressed.mp4'),
   ]
 
   webWorks: WorkCard[] = [
-    new WorkCard('ApuntesUSC', 'Plataforma web para compartir apuntes entre los estudiantes', 'https://apuntesusc.es', 'Visit website', 'assets/fullstack-dev/gifs/apuntesusc.gif'),
-    new WorkCard('Object Detection', 'Bla bla bla', '', 'Check it!', 'assets/computer-vision/gifs/object-detection-compressed.mp4'),
-    new WorkCard('Landmark detection', 'Bla bla bla', '', 'Check it!', 'assets/computer-vision/gifs/landmark-detection-compressed.mp4'),
-    new WorkCard('Anomaly Detection & Segmentation', 'Bla bla bla', 'Check it!', '', 'assets/computer-vision/gifs/anomaly-segmentation.png'),
-    new WorkCard('Semantic Segmentation', 'Bla bla bla', '', 'Check it!', 'assets/computer-vision/gifs/object-detection-compressed.mp4'),
-    new WorkCard('Semantic Segmentation', 'Bla bla bla', '', 'Check it!', 'assets/computer-vision/gifs/landmark-detection-compressed.mp4')
-  ]
+    new WorkCard('section5.hipoges.title', 'section5.hipoges.description', '', 'common.check-it', 'assets/fullstack-dev/gifs/real_estate.jpg'),
+    new WorkCard('section5.mar2.title', 'section5.mar2.description', 'https://www.linkedin.com/feed/update/urn:li:activity:6864849626965532672/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6864849626965532672%29', 'common.check-it', 'assets/fullstack-dev/gifs/mar-2.jpg'),
+    new WorkCard('section5.cui.title', 'section5.cui.description', '', 'common.check-it', 'assets/fullstack-dev/gifs/centro-mision.jpg'),
+    new WorkCard('section5.huter.title', 'section5.huter.description', 'https://huter-hca.eu/', 'common.check-it', 'assets/fullstack-dev/gifs/huter.jpg'),
+    new WorkCard('section5.apuntesusc.title', 'section5.apuntesusc.description', 'https://apuntesusc.es', 'common.visit-website', 'assets/fullstack-dev/gifs/apuntesusc-compressed.mp4'),
+    new WorkCard('section5.vaccine-covid.title', 'section5.vaccine-covid.description', '', 'common.check-it', 'assets/fullstack-dev/gifs/vaccine-covid.jpeg'),
+    ];
 
   constructor( private renderer: Renderer2) { }
 
@@ -60,16 +61,16 @@ export class MainComponent implements OnInit, AfterViewInit {
 
   /* or the classic JavaScript object */
   particlesOptions = {
-    fpsLimit: 75,
+    fpsLimit: 60,
     interactivity: {
       events: {
         onClick: {
           enable: true,
-          mode: ClickMode.repulse
+          mode: ClickMode.push
         },
         onHover: {
           enable: true,
-          mode: HoverMode.bubble
+          mode: HoverMode.attract
         },
         resize: true
       },
@@ -78,8 +79,8 @@ export class MainComponent implements OnInit, AfterViewInit {
           quantity: 4
         },
         repulse: {
-          distance: 200,
-          duration: 0.4
+          distance: 100,
+          duration: 0.2
         }
       }
     },
@@ -95,7 +96,7 @@ export class MainComponent implements OnInit, AfterViewInit {
         width: 2
       },
       collisions: {
-        enable: true
+        enable: false
       },
       move: {
         direction: MoveDirection.none,
@@ -104,7 +105,7 @@ export class MainComponent implements OnInit, AfterViewInit {
           default: OutMode.bounce
         },
         random: false,
-        speed: 3,
+        speed: 2,
         straight: false
       },
       number: {

@@ -14,9 +14,9 @@ a{
 
   transition: padding 1s;
 
-  padding: 50px 250px 0px;
+  padding: 25px 250px 0px;
   margin-bottom: -35px;
-  @include br.respond-to(lt-medium){
+  @include br.respond-to(lt-large){
     padding: 20px 30px;
   }
 
@@ -25,13 +25,21 @@ a{
     justify-content: space-between;
     align-items: center;
 
-
     .logo{
       width: 75px;
     }
+
+    .botton-lang-container{
+      display: flex;
+      align-items: center;
+
+      .mat-select{
+        width: unset;
+      }
+    }
   }
   .title-container{
-    padding-top: 100px;
+    padding-top: 75px;
   }
   .title{
 

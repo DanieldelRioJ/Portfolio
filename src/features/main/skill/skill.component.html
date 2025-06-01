@@ -3,15 +3,15 @@
         <div class="skill-icon-container">
             <img alt="Computer vision icon" [src]="skill.icon"/>
         </div>
-        <h2>{{skill.title}}</h2>
-        <p class="font-size-12">{{skill.subtitle}}</p>
+        <h2>{{skill.title | translate}}</h2>
+        <p class="font-size-12">{{skill.subtitle | translate}}</p>
         <div class="details mt-4" *ngFor="let detail of skill.details">
-            <h3 class="title font-size-12">{{detail.title}}</h3>
+            <h3 class="title font-size-12">{{detail.title | translate}}:</h3>
             <ul>
-                <li class="font-size-12 mt-1" *ngFor="let value of detail.values">{{value}}</li>
+                <li class="font-size-12 mt-1" *ngFor="let value of detail.values">{{value | translate}}</li>
             </ul>
         </div>
     </div>
-    <div *ngIf="skill.checkIt != null" class="mt-4"><a [href]="skill.checkIt" class="my-button font-size-12">Check it</a></div>
+    <div *ngIf="skill.checkIt != null" class="mt-4"><a [href]="skill.checkIt" class="my-button font-size-12">{{'common.check-it' | translate}}</a></div>
 
 </div>

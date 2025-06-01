@@ -1,0 +1,137 @@
+{
+  "common": {
+    "say-hello": "Say hello",
+    "check-it": "Check it",
+    "email-me": "Email me",
+    "visit-website": "Visit website",
+    "langs": {
+      "en": "English",
+      "es": "Español",
+      "gl": "Galego",
+      "de": "Deutsch"
+    }
+  },
+  "section1": {
+    "header": "FullStack Web Developer & Computer Vision Engineer",
+    "subheader": "I develop Computer Vision programs and websites!",
+    "name": "Name",
+    "age": "Age",
+    "studies": "Studies",
+    "my-studies": "Computer Science Degree & Computer Vision Master"
+  },
+  "section2": {
+    "title": "Hi, I´m Daniel. Nice to meet you.",
+    "subtitle": "Since I started in computer field over 6 years ago I have worked for multiple agencies and factories developing software and making it more competitive using Computer Vision. I´m continiously learning and improving my skills."
+  },
+  "section3": {
+    "computer-vision": {
+      "title": "Computer vision",
+      "description": "I am passionate of developing programs that can extract information from images and allow the computer to \"see\"",
+      "problems": {
+        "title": "Problems I enjoy solving",
+        "value": "Classification, Semantic segmentation, Object Detection, Anomaly Detection and Segmentation, ..."
+      },
+      "technologies": {
+        "title": "Technologies I use"
+      },
+      "exp": {
+        "title": "Experience",
+        "value": "+1.5 years"
+      }
+    },
+    "full-stack": {
+      "title": "FullStack Developer",
+      "description": "I like making beautiful web applications that helps people solving their problems",
+      "languages": {
+        "title": "Languages I use"
+      },
+      "frameworks": {
+        "title": "Frameworks I use"
+      },
+      "exp": {
+        "title": "Experience",
+        "value": "+2 years"
+      }
+    },
+    "mentor": {
+      "title": "Mentor",
+      "description": "I am concerned about people and love helping others achieve their goals",
+      "fields": {
+        "title": "Fields of knowledge I teach",
+        "value": "Bots, Web Extensions, Computer Vision"
+      },
+      "stats": {
+        "title": "Mentor stats",
+        "value": {
+          "exp": "1 year experience",
+          "courses": "3 courses",
+          "students": "+200 students",
+          "length": "+20h recorded classes"
+        }
+      }
+    }
+  },
+  "section4": {
+    "title": "Computer vision work",
+    "description": "Here I show you my last works in the Computer Vision field. Want to see more?",
+    "semantic-segmentation": {
+      "title": "Semantic Segmentation",
+      "description": "Get the class of each pixel of an image"
+    },
+    "object-detection": {
+      "title": "Object Detection",
+      "description": "Detect multiple objects on an image"
+    },
+    "landmark-detection": {
+      "title": "Landmark detection",
+      "description": "Detect special points in an image. ie: ears, eyes, mouth, etc"
+    },
+    "anomaly-detection": {
+      "title": "Anomaly Detection & Segmentation",
+      "description": "Unsupervised detection and segmentation of anomalies in images"
+    },
+    "tracking": {
+      "title": "Tracking",
+      "description": "Detect and track objects during a video"
+    },
+    "multitask": {
+      "title": "Multitask",
+      "description": "Execute multiple task simultaneously: Classification, Regression, Segmentation, ..."
+    },
+    "see-more-kaggle": "See more in my Kaggle"
+  },
+  "section5": {
+    "title": "FullStack web development work",
+    "description": "Here I show you the last works in the Web Development field I have been working in. Want to see more?",
+    "apuntesusc": {
+      "title": "ApuntesUSC",
+      "description": "Web platform for class notes sharing between students"
+    },
+    "vaccine-covid": {
+      "title": "Vaccine Covid",
+      "description": "Web platform to see covid vaccine stats in real time. No longer available"
+    },
+    "mar2": {
+      "title": "MAR 2",
+      "description": "Web platform for consulting the water data of reservoirs and coasts of Galicia."
+    },
+    "cui": {
+      "title": "CUI",
+      "description": "Web platform for monitoring drones in real time."
+    },
+    "huter": {
+      "title": "HUTER",
+      "description": "Web platform for viewing histological images."
+    },
+    "hipoges": {
+      "title": "Real Estate",
+      "description": "Real estate management web platform for a company that manages more than a billion dollars in real estate assets."
+    }
+  },
+  "companies": {
+    "title": "I´m proud to have worked with some amazing companies"
+  },
+  "footer": {
+    "sentence": "Effort, dedication and perseverance are the keys to success."
+  }
+}

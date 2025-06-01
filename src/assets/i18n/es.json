@@ -1,0 +1,137 @@
+{
+  "common": {
+    "say-hello": "Contactar",
+    "check-it": "Ver más",
+    "email-me": "Háblame",
+    "visit-website": "Visita a web",
+    "langs": {
+      "en": "English",
+      "es": "Español",
+      "gl": "Galego",
+      "de": "Deutsch"
+    }
+  },
+  "section1": {
+    "header": "Desarollador web FullStack & Ingeniero de Visión por Computador",
+    "subheader": "Desarrollo programas de visión y también webs",
+    "name": "Nombre",
+    "age": "Edad",
+    "studies": "Estudios",
+    "my-studies": "Grado en Ingeniería Informática e Máster en Visión por Computador"
+  },
+  "section2": {
+    "title": "Hola, soy Daniel. Encantado de conocerte.",
+    "subtitle": "Desde que empecé en la informática, hace ya 6 años, he trabajado con múltiples empresas desarrollando software y haciéndolas más competitivas utilizando Visión por Computador. Estoy continuamente aprendiendo y mejorando."
+  },
+  "section3": {
+    "computer-vision": {
+      "title": "Visión por Computador",
+      "description": "Soy un apasionado del desarrollo de programas que puedan extraer información de imágenes, permitiéndoles \"ver\"",
+      "problems": {
+        "title": "Problemas que disfruto resolviendo",
+        "value": "Clasificación, Segmentación semántica, Detección de objetos, Detección y segmentación de anomalías, ..."
+      },
+      "technologies": {
+        "title": "Tecnologías que uso"
+      },
+      "exp": {
+        "title": "Experiencia",
+        "value": "+1.5 años"
+      }
+    },
+    "full-stack": {
+      "title": "Desarrollador FullStack",
+      "description": "Me encanta hacer webs bonitas que ayuden a solventar los problemas de los demás",
+      "languages": {
+        "title": "Lenguajes que utilizo"
+      },
+      "frameworks": {
+        "title": "Frameworks que utilizo"
+      },
+      "exp": {
+        "title": "Experiencia",
+        "value": "+2 años"
+      }
+    },
+    "mentor": {
+      "title": "Mentor",
+      "description": "Me preocupa por los demás y me encanta ayudarles a cumplir sus objetivos",
+      "fields": {
+        "title": "Campos en los que enseño",
+        "value": "Bots, Extensiones web, Visión por computador"
+      },
+      "stats": {
+        "title": "Estadísticas de mentor",
+        "value": {
+          "exp": "1 año de experiencia",
+          "courses": "3 cursos",
+          "students": "+200 estudiantes",
+          "length": "+20h de grabación"
+        }
+      }
+    }
+  },
+  "section4": {
+    "title": "Trabajo de Visión por Computador",
+    "description": "Aquí os muestro mis últimos trabajos de Visión por Computador. ¿Quiéres saber más?",
+    "semantic-segmentation": {
+      "title": "Segmentación semántica",
+      "description": "Obtén la clase de cada pixel de la imagen"
+    },
+    "object-detection": {
+      "title": "Object Detection",
+      "description": "Detecta multiples objetos en una image"
+    },
+    "landmark-detection": {
+      "title": "Detección de landmarks",
+      "description": "Detecta puntos especiales en una imagen, como orejas, ojos, boca, etc"
+    },
+    "anomaly-detection": {
+      "title": "Detección & Segmentación de anomalías",
+      "description": "Detecta y segmenta anomalías en una imagen de manera completamente no supervisada"
+    },
+    "tracking": {
+      "title": "Tracking",
+      "description": "Detecta y sigue objetos durante un video"
+    },
+    "multitask": {
+      "title": "Multitask",
+      "description": "Realiza múltiples tareas de manera simultánea: Clasificación, Regresión, Segmentación, ..."
+    },
+    "see-more-kaggle": "Ver más en mi Kaggle"
+  },
+  "section5": {
+    "title": "Trabajo como Desarrollador Web",
+    "description": "Aquí os muestro los últimos trabajos de Desarrollador web en los que he participado. ¿Quiéres saber más?",
+    "apuntesusc": {
+      "title": "ApuntesUSC",
+      "description": "Plataforma web para la compartición de apuntes entre los estudiantes de la USC"
+    },
+    "vaccine-covid": {
+      "title": "Vaccine Covid",
+      "description": "Plataforma web para la consulta de los datos de vacunación en tiempo real para los diferentes países. Ya no está disponible"
+    },
+    "mar2": {
+      "title": "MAR 2",
+      "description": "Plataforma web para la consulta de los datos del agua de embalses y costas de Galicia."
+    },
+    "cui": {
+      "title": "CUI",
+      "description": "Plataforma web para la monitorización de drones en tiempo real."
+    },
+    "huter": {
+      "title": "HUTER",
+      "description": "Plataforma web para la visualización de imágenes histológicas."
+    },
+    "hipoges": {
+      "title": "Gestión inmobiliaria",
+      "description": "Plataforma web para una empresa que gestiona más de mil millones de dólares en inmuebles."
+    }
+  },
+  "companies": {
+    "title": "Estoy orgulloso de haber trabajado con empresas maravillosas "
+  },
+  "footer": {
+    "sentence": "Esfuerzo, dedicación y constancia son las claves del éxito."
+  }
+}

@@ -6,7 +6,7 @@ import {RouterModule} from '@angular/router';
 import {SideBarComponent} from './components/side-bar/side-bar.component';
 import {HeaderComponent} from './components/header/header.component';
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
-import {HttpClient} from "@angular/common/http";
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import { FooterComponent } from './components/footer/footer.component';
 
@@ -18,6 +18,7 @@ export function createTranslateLoader(http: HttpClient) {
     declarations: [MainLayoutComponent, SideBarComponent, HeaderComponent, FooterComponent],
     exports: [MainLayoutComponent, FooterComponent],
     imports: [CommonModule,
+        HttpClientModule,
         UtilPipesModule,//TODO remove UtilPipesModule if not used in the CoreModule
         RouterModule,
         TranslateModule.forRoot({
@@ -26,7 +27,7 @@ export function createTranslateLoader(http: HttpClient) {
                 useFactory: (createTranslateLoader),
                 deps: [HttpClient]
             },
-            defaultLanguage: 'es-ES'
+            defaultLanguage: 'en'
         })],
 })
 export class CoreModule {

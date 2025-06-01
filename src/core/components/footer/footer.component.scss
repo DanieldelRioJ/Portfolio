@@ -3,6 +3,50 @@
 }
 
 .footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   min-height: 300px;
   background-color: #0077b6;
+
+  .sentence{
+    max-width: 300px;
+    line-height: 2rem;
+  }
+
+  .icon-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    a:hover img{
+      filter: brightness(0%);
+    }
+
+    a{
+      display: block;
+      margin-right: 10px;
+      img{
+        transition: filter 0.5s;
+      }
+    }
+  }
+
+  p{
+    color: #eee;
+  }
+
+  text-align: center;
+  .angular-logo{
+    max-height: 30px;
+    display: inline-block;
+    vertical-align: sub;
+  }
+
+  .angular-logo-container {
+    color: #ccc;
+    display: inline-block;
+    vertical-align: middle;
+  }
 }

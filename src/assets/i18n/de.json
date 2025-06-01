@@ -1,0 +1,137 @@
+{
+  "common": {
+    "say-hello": "Grüß mich",
+    "check-it": "Prüfen Sie",
+    "email-me": "Maile mir",
+    "visit-website": "Besuche die Website",
+    "langs": {
+      "en": "English",
+      "es": "Español",
+      "gl": "Galego",
+      "de": "Deutsch"
+    }
+  },
+  "section1": {
+    "header": "FullStack-Webentwickler und Computer-Vision-Ingenieur",
+    "subheader": "Ich entwickle Computer Vision Programme und Websites!",
+    "name": "Name",
+    "age": "Alter",
+    "studies": "Studien",
+    "my-studies": "Bachelor-Abschluss Informatik & Master Computer Vision"
+  },
+  "section2": {
+    "title": "Hallo, ich bin Daniel. Schön, dich kennenzulernen.",
+    "subtitle": "Seit ich vor über 6 Jahren im Computerbereich angefangen habe, habe ich für mehrere Agenturen und Fabriken gearbeitet, um Software zu entwickeln und sie mit Computer Vision wettbewerbsfähiger zu machen. Ich lerne kontinuierlich und verbessere meine Fähigkeiten."
+  },
+  "section3": {
+    "computer-vision": {
+      "title": "Computer vision",
+      "description": "Ich entwickle leidenschaftlich gerne Programme, die Informationen aus Bildern extrahieren und es dem Computer ermöglichen, zu \"sehen\"",
+      "problems": {
+        "title": "Probleme, die ich gerne löse",
+        "value": "Klassifizierung, semantische Segmentierung, Objekterkennung, Anomalieerkennung und Segmentierung, ..."
+      },
+      "technologies": {
+        "title": "Technologien, die ich verwende"
+      },
+      "exp": {
+        "title": "Erfahrung",
+        "value": "+1.5 Jahre"
+      }
+    },
+    "full-stack": {
+      "title": "Full-Stack-Entwickler",
+      "description": "Ich mag es, schöne Webanwendungen zu erstellen, die Menschen helfen, ihre Probleme zu lösen",
+      "languages": {
+        "title": "Programmiersprachen, die ich verwende"
+      },
+      "frameworks": {
+        "title": "Frameworks, die ich verwende"
+      },
+      "exp": {
+        "title": "Erfahrung",
+        "value": "+2 Jahre"
+      }
+    },
+    "mentor": {
+      "title": "Mentor",
+      "description": "Ich mache mir Sorgen um Menschen und helfe gerne anderen dabei, ihre Ziele zu erreichen",
+      "fields": {
+        "title": "Wissensgebiete, die ich unterrichte",
+        "value": "Bots, Weberweiterungen, Computer Vision"
+      },
+      "stats": {
+        "title": "Mentor-Statistiken",
+        "value": {
+          "exp": "1 Jahr Erfahrung",
+          "courses": "3 Kurse",
+          "students": "+200 Studentinnen",
+          "length": "+20 Stunden aufgezeichnet"
+        }
+      }
+    }
+  },
+  "section4": {
+    "title": "Computer Vision Arbeit",
+    "description": "Hier zeige ich Ihnen meine letzten Arbeiten im Bereich Computer Vision. Möchte mehr sehen?",
+    "semantic-segmentation": {
+      "title": "Semantische Segmentierung",
+      "description": "Holen Sie sich die Klasse jedes Pixels eines Bildes"
+    },
+    "object-detection": {
+      "title": "Objekterkennung",
+      "description": "Erkennen Sie mehrere Objekte auf einem Bild"
+    },
+    "landmark-detection": {
+      "title": "Landmarkenerkennung",
+      "description": "Erkennen Sie spezielle Punkte in einem Bild. dh: Ohren, Augen, Mund usw"
+    },
+    "anomaly-detection": {
+      "title": "Anomalieerkennung und -segmentierung",
+      "description": "Unüberwachte Erkennung und Segmentierung von Anomalien in Bildern"
+    },
+    "tracking": {
+      "title": "Verfolgung",
+      "description": "Erkennen und verfolgen Sie Objekte während eines Videos"
+    },
+    "multitask": {
+      "title": "Multitasking",
+      "description": "Mehrere Aufgaben gleichzeitig ausführen: Klassifikation, Regression, Segmentierung, ..."
+    },
+    "see-more-kaggle": "Sehen Sie mehr in meinem Kaggle"
+  },
+  "section5": {
+    "title": "Full-Stack-Webentwicklungsarbeit",
+    "description": "Hier zeige ich Ihnen die letzten Arbeiten im Bereich Webentwicklung, in denen ich gearbeitet habe.",
+    "apuntesusc": {
+      "title": "ApuntesUSC",
+      "description": "Webplattform für den Austausch von Unterrichtsnotizen zwischen Schülern"
+    },
+    "vaccine-covid": {
+      "title": "Vaccine Covid",
+      "description": "Webplattform, um Covid-Impfstatistiken in Echtzeit anzuzeigen. Nicht länger verfügbar"
+    },
+    "mar2": {
+      "title": "MAR 2",
+      "description": "Webplattform zum Abrufen der Wasserdaten von Stauseen und Küsten von Galicien."
+    },
+    "cui": {
+      "title": "CUI",
+      "description": "Webplattform zur Überwachung von Drohnen in Echtzeit."
+    },
+    "huter": {
+      "title": "HUTER",
+      "description": "Webplattform zum Betrachten histologischer Bilder."
+    },
+    "huter": {
+      "title": "Immobilie",
+      "description": "Webplattform zur Immobilienverwaltung für ein Unternehmen, das mehr als eine Milliarde Dollar an Immobilienvermögen verwaltet."
+    }
+  },
+  "companies": {
+    "title": "Ich bin stolz darauf, mit einigen großartigen Unternehmen zusammengearbeitet zu haben"
+  },
+  "footer": {
+    "sentence": "Anstrengung, Hingabe und Ausdauer sind die Schlüssel zum Erfolg."
+  }
+}
